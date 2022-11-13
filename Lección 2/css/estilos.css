@@ -27,7 +27,9 @@ h1 {
 }
 
 .borde_rojo{
-    border: 10px solid firebrick;
+    border: solid firebrick;
+    border-width: 10px;/*tamaño*/
+    border-radius: 20px;/*redondeado*/
 }
 .borde_rosa {
     border: 10px dashed hotpink;
@@ -46,7 +48,7 @@ h1 {
 }
 .borde_anaranjado{
     border: inset rgb(253, 93, 1);
-    border-width: thick;/*puede ser thin, medium, thick*/
+    border-width: thick;/*puede ser thin, medium, thick - son tamaños estandar*/
 }
 .borde_gris{
     border: outset rgb(121, 121, 121);
@@ -61,4 +63,5 @@ h1 {
 .borde_mixto{
     border-style: double dashed dotted ridge;
     border-width: 10px 5px 15px 30px;
+    border-color: lime blueviolet firebrick hotpink;
 }
