@@ -1,0 +1,8 @@
+h1, h2, p {
+    color: brown;
+    text-align: center;
+}
+
+p.derecha {
+    text-align: right;
+}/*solo va a servir para los parrafos que se le agregue la clase derecha*/

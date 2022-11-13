@@ -1,0 +1,17 @@
+* {
+    background-color: ghostwhite;
+}/* el asterisco indica que es un selector universal
+    quiere decir que se va a aplicar a toda la página*/
+
+#titulo {
+    color: aqua !important;
+    text-align: right;
+}/*al poner !importan se tomo como referencia principal*/
+
+.centrar {
+    text-align: center;
+}
+
+.texto_grande {
+    font-size: 30px;
+}
