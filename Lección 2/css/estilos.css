@@ -38,3 +38,27 @@ h1 {
 .borde_violeta {
     border: 10px dotted blueviolet;
 }
+.borde_verde{
+    border: 10px groove lime;
+}
+.borde_azul{
+    border: 10px ridge turquoise;
+}
+.borde_anaranjado{
+    border: inset rgb(253, 93, 1);
+    border-width: thick;/*puede ser thin, medium, thick*/
+}
+.borde_gris{
+    border: outset rgb(121, 121, 121);
+    border-width: 10px 5px 3px;
+}
+.borde_oculto{
+    border: 10px hidden;
+}
+.sin_borde{
+    border: none;
+}
+.borde_mixto{
+    border-style: double dashed dotted ridge;
+    border-width: 10px 5px 15px 30px;
+}
