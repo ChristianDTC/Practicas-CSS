@@ -5,9 +5,15 @@ h1{
 div {
     padding: 10px;
     border: 10px solid #457b9d;
-    margin: 20px;
+    margin: auto;/*al poner auto toma los mismos valores en cada lado y se van ajustando*/
     background-color: #f1faee;
-    width: 300px;
+    max-width: 300px;/*fija el máximo, al modificar el tamaño de la ventana se ajusta*/
+    max-height: 100%;/*se puede expresar en cantidad o porcentaje*/
     outline: 10px solid #a8dadc;/*espacio entre el border y el margin*/
     outline-offset: 10px;/*espacio entre el border y el outline*/
+    box-sizing: border-box;/*fija un tamaño para no pasarse con los demás margenes
+                        solo afecta al padding y al border*/
+}
+p.interno {
+    margin: inherit;/*hereda el valor del padre, en este caso el div*/
 }
