@@ -1,0 +1,15 @@
+body {
+    color: cornsilk;
+    /*background-color: dodgerblue;
+    background-image: url("/Lección 5/img/corriente.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;*/
+    background: dodgerblue url("/Lección 5/img/corriente.jpeg") no-repeat right top;
+    /*se pueden establecer los distintos background por separado o en una sola línea*/
+    background-attachment: fixed;/*dejo fija la imagen si se mueve la página*/
+}
+
+h1 {
+    text-align: center;
+    background-color: dodgerblue;
+}
