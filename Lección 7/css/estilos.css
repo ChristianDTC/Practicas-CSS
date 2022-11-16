@@ -1,0 +1,69 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Sofia&Princess+Sofia&display=swap');
+    este es el caso para ccs2, si es ccs, se borra el 2 y para sumar fuentes
+    se las agrupa con | en vez del &*/
+@import url('https://fonts.googleapis.com/css?family=Sofia|Princess+Sofia&effect=neon&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Sofia&display=swap');
+ se pueden importar una a uno o si son similares los links se pueden
+ agrupar con el simbolo de &*/
+
+h1 {
+    text-align: center;
+    color: #ef467f;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    /*al agregar el efecto neon se prioriza y reemplaza el text-shadow*/
+    font-family: 'Sofia', cursive;
+}
+
+.caja {
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif {
+    background-color: #5a189a;
+}
+.caja.san-serif {
+    background-color: #ef467f;
+}
+.caja.monospace {
+    background-color: blueviolet;
+}
+.caja.cursive {
+    background-color: orange;
+}
+.fuente_times {
+    /*font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; /*grosor de la fuente "negrita"*/
+    /*font-variant: small-caps;*/ 
+    /*las primeras letras las hace más altas*/
+    /*todos los font se pueden agregar en una sola linea como el border*/
+    /*font: style variant weight size/line-height family <= respetando este orden*/
+    font: normal small-caps bold 20px 'Times New Roman', Times, serif;
+}
+.fuente_georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25vw; /*el tamaño de la fuente se adecua al ancho de la pantalla*/
+    /*3vh el tamaño de la fuente se adecua al alto de la pantalla*/
+    /*el número equivale al porcentaje de la pantalla 3%*/
+}
+.fuente_arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuente_verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fuente_courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+.fuente_lucida {
+    font-family: 'Princess Sofia', cursive;
+    /*font-family: "Lucida Handwriting", cursive;*/
+}
