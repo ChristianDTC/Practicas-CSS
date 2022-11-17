@@ -1,0 +1,31 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    display: block;
+}
+h1 {
+    display: none;/*al poner none se oculta la vista*/
+    /*las clases van tomando el último valor indicado*/
+}
+
+p{
+    visibility: hidden; /*hidden = oculto*/
+}/*se oculta el texto pero se mantiene el lugar*/
+
+span {
+    display: inline;
+    border: 1px solid black;
+}
+
+a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+}
