@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+div.contenedor{
+    height: 150px;
+    width: 30%;
+    text-align: justify;
+    overflow: auto;
+}
+div.contenedor.flotado {
+    float: left;
+}
+div.contenedor.flotado.contenedor1 {
+    border: 3px solid greenyellow;
+}
+div.contenedor.flotado.contenedor2 {
+    border: 3px solid cornflowerblue;
+    float: right;
+}
+div.contenedor.contenedor3 {
+    border: 3px solid darkorange;
+    clear: both;
+    /*borra los margenes flotados de ambos lados*/
+    margin: auto;
+    color: black;
+}
