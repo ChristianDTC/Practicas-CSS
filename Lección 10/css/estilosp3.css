@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+div.contenedor{
+    border: 3px solid greenyellow;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    /*overflow: visible;
+        viene por defecto y hace que se muestre todo aunque pase el div*/
+    /*overflow: hidden;
+        todo lo que pasa el div se oculta*/
+    overflow: auto;
+    /*agrega un scroll si el texto supera el div*/
+    /*solo funciona si se establece el alto del div "height"*/
+}
