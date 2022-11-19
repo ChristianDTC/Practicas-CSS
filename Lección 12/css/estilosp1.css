@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #a8dadc;
+    color: #e63946;
+}
+img{
+    width: 100%;
+}
+
+div.contenedor {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px 2px gray;/*box-shadow = sombra de la caja*/
+    /* ejeX - ejeY - difuminado - tamaño de la sombra - color de la sombra*/
+    color: #457b9d;
+    border-radius: 20px;
+}
+
+div.body{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(177, 177, 177);
+}
+
+div.head{
+    background-color: #4cc9f0;
+   
+}
