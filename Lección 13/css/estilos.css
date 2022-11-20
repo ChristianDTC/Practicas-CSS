@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(177, 177, 177);
+    color: #e63046;
+}
+
+div.contenedor {
+    display: flex; /*determina el flexbox*/
+    background-color: #560bad;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    alineamos automaticamente los elementos si se modifica la pantalla */
+    flex-flow: row wrap;
+    /*puedo agrupar flex-direction con flex-wrap*/
+    justify-content: center;
+    /*me permite ordenar los elementos en el sentido que desee*/
+    height: 300px;
+    align-items: center;
+    /*evito que se estiren el ancho del div y elijo la dirección*/
+    align-self: center;
+    /*permite alinear los elementos en forma vertical*/
+}
+div.contenedor > p{ /*herencia*/
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
